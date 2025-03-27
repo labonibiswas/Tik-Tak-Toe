@@ -3,13 +3,24 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+
+}
+
 body{
-    background: #6badae;
     text-align: center;
+    background-image: linear-gradient(to bottom right, #B5EAEA, #3DB2FF);
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
 
 main{
     padding: 2rem;
+}
+
+h1{
+    color: #5C2FC2;
 }
 
 .container{
@@ -37,14 +48,14 @@ main{
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
-    color: #b0413e;
-    background-color: #FFF2AF;
+    /*color: #b0413e;*/
+    background-color: #f3e3bf;
 }
 
 #reset-btn{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: #191913;
+    background-color: #5C2FC2;
     color: #fff;
     border-radius: 1rem;
     border: none;
@@ -53,14 +64,14 @@ main{
 #new-btn{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: #191913;
+    background-color: #5C2FC2;
     color: #fff;
     border-radius: 1rem;
     border: none;   
 }
 
 #msg{
-    color: #ffffc7;;
+    color: #5C2FC2;;
     font-size: 5vmin;
 }
 
