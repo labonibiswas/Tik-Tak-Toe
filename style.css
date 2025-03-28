@@ -3,12 +3,7 @@
     padding: 0;
 }
 
-html{
-    height: 100%;
-
-}
-
-body{
+section{
     text-align: center;
     background-image: linear-gradient(to bottom right, #B5EAEA, #3DB2FF);
     background-repeat: no-repeat;
@@ -21,8 +16,8 @@ main{
 
 h1{
     color: #5C2FC2;
+    padding: 2rem;
 }
-
 .container{
     height: 70vh;
     display: flex;
@@ -86,4 +81,17 @@ h1{
 
 .hide{
     display: none;
+}
+
+@media screen and (max-width: 425px) {
+    .msg-container{
+        height: 100vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 4rem;
+        
+    }
 }
