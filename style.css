@@ -94,6 +94,10 @@ h1{
         margin-top: 4rem;
         
     }
+    h1{
+    color: #5C2FC2;
+    padding: 1.5rem;
+    }
     .hide{
     display: none;
     }
